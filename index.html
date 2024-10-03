@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    
+    <nav class="menu">
+        <div class="nome">
+            <ul>Cars</ul>
+        </div>
+        <div class="carrinho" onclick="ModalCarrinho()">
+            <img src="img/bag.png" alt="" onclick="ModalCarrinho()">
+        </div>
+
+    </nav>
+
+
+    <section class="cards">
+
+        <h1>New Arrivals</h1>
+        <div class="pai">
+            <div class="card">
+                <img src="img/1.jpg" alt="">
+                <div class="card-body">
+                    <h3>CHEVROLET - ONIX SED. Plus PREM. 1.0 12V TB</h3>
+                    <p>R$ 94.000,00</p>
+                    <p>⭐⭐⭐⭐⭐ 13 reviws</p>
+                    <button type="button" class="botaoCard" onclick="ModalCard()">Add to Card</button>
+                </div>
+
+            </div>
+                <div class="card">
+                    <img src="img/2.jpg" alt="">
+                    <div class="card-body">
+                        <h3>JEEP - Renegade Longitude 2.0 4x4 TB Diesel Aut</h3>
+                        <p>R$ 55.900,00</p>
+                        <p>⭐⭐⭐⭐ 20 reviws</p>
+                        <button type="button" class="botaoCard" onclick="ModalCard()">Add to Card</button>
+                    </div>                   
+                </div>
+
+                <div class="card">
+                    <img src="img/3.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Hyundai - HB20 Comf. 1.0 Flex 12V 2016 - Flex Aut</h3>
+                        <p>R$ 49.900,00</p>
+                        <p>⭐⭐⭐⭐⭐ 9 reviws</p>
+                        <button type="button" class="botaoCard" onclick="ModalCard()">Add to Card</button>
+                    </div>
+
+                </div>
+
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

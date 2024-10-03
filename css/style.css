@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    width: 150px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+}
+
+.carrinho img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.menu{
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+   
+}
+
+.card {
+    width: 250px;
+    height: 440px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+
+.card img{
+    padding-top: 10px;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+button{
+    height: 40px;
+    width: 210px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.botaoCard {
+    display: flex;
+    background-color: #50be41;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cards{
+    height: 90dvh;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+}
+
+.cards h1{
+    padding: 40px;
+}
+
+.pai{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.pai p{
+    padding: 10px;
+}
